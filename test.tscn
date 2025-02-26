@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://7dgaxpfdmyol"]
+
+[ext_resource type="Script" uid="uid://bh5tl4p1ecsih" path="res://button.gd" id="1_37kl0"]
+
+[node name="Node2D" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+text = "Crash"
+script = ExtResource("1_37kl0")
